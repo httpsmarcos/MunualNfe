@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFe Nota de Devolução</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nota Fiscal Devolução</h1>
+    </header>
+
+    <nav>
+        <a href="notafiscal.html">NFe Venda</a>
+        <a href="nf_devolucao.html">NFe Devolução</a>
+        <a href="nf_devolucao_compra.html">NFe Devolução de Compra</a>
+        <a href="nf_subs_cupom.html">NFe Subtituição Cupomn</a>
+    </nav>
+
+    <main>
+        <h2>1. Cabeçalho NFe </h2>
+
+        <ol>
+            <li type="A"><h3>Informações da nota</h3></li>
+           
+            <p
+            >Na parte lateral esquerda vai clicar no botão “Nota Fiscal (NFe) &gt; Incluir ”, em seguida
+             vai inserir as seguintes informações:
+            </p>
+
+                <p>
+                    <strong>Tipo Nota:</strong> O tipo SAÍDA vai ser utilizado sempre
+                    que tiver como o intuito subtrair o produto do estoque e ENTRADA sempre que tiver como
+                    intuito acrescentar no estoque.
+                    <br>
+                    <strong>Forma de Pagamento:</strong> Pagamento a vista quando for nota de saída, sem pagamento quando for para nota de entrada ou devolução.
+                    <br>
+                    <strong>Consumidor Final:</strong> Sim para pessoas física (CPF), não
+                    para pessoa jurídica (CNPJ).
+                    <br>
+                    <strong>Destino nota:</strong> Operação Interna para cliente dentro do
+                    estado, Operação Interestadual para cliente fora do estado.
+                    <br>
+                    <strong>Finalidade:</strong>  “NFe normal” para notas de venda ou nota de entrada,
+                    “ NF Devolução” para notas de devolução.
+                    <br>
+                    <strong>Substituição Cupom:</strong>Sim se caso a venda
+                    já tenha sido realizada no caixa e emitido cupom ou venda vermelha. Não se a nota estiver sendo criada.
+                    <br>
+                    <strong>Natureza:</strong> Especificar a opreação da nota, informando se ela é "Venda", "Devolução de compra", "Devolução de venda".
+                </p>
+                <br>
+
+                <picture>
+                    
+                    <img src="img/cabecalho.png" alt="cabecalho da nota">
+                    
+                </picture>
+            
+            <li type="A"><h3>Destinatário</h3></li>
+            <p>
+                Campos obrigatório para emissão de nota será:
+                <br>
+                <strong>Tipo de Cliente:</strong> (Pessoa Física ou Pessoa Jurídica), 
+                <br>
+                <strong>Tipo de contribuinte:</strong> “Contribuinte ICMS, pessoa Jurídica (Informar Inscrição Estadual no campo ao lado do CNPJ), "Não contribuinte" pessoa física(Não preencher o campo de Inscrição Estadual).
+                <br>
+                <strong>Razão Social:</strong>Nome da empressa ou pessoa.
+                <br> 
+                <strong>CNPJ/CPF</strong> Informar o CNPJ ou CPF 
+                <br>
+                <strong>Endereço </strong> Informar CEP, Endereço, Numero, 
+                Bairro, Bairro, Estado e Cidade.
+                <br>
+                 Em seguida clicar no botão de
+                <strong>“Iniciar Nota”</strong>.
+            </p>
+                <br>
+                <img src="img/incluir-cliente.png" alt="Destinatário">
+
+            <li><h3>Inserção de produtos / Emissão</h3></li>
+            
+            <p> 
+                Para inserção dos produtos, basta pesquisar o produto desejado no campo de
+                “Produto ou Código”, em seguida vai clicar no produto desejado, onde será aberto
+                uma janela para colocar a quantia a ser vendida, o valor e CFOP de operação. Nessa
+                tela também tem a opção de “Importar Venda”, nela você pode realizar a importação
+                de produtos de vendas que já foram realizadas através do caixa.
+            </p>
+            <br>
+                <img src="img/incluir-produto.png" alt="Inserir produtos">
+
+            <li><h3>Inclusão de Produtos</h3></li>
+            
+            <p>
+                Após selecionar o produto será exibida essa janela para ser inserida a “quantidade,
+                Valor de venda, CFOP” após ter essas informações clicar em incluir. Será feito esse
+                procedimento para os demais produtos, caso a nota seja composta por mais de um.
+            </p>
+            <br>
+            <img src="img/informacao-produto.png" alt="produtos">
+
+            <li><h3>Emissão de Nota</h3></li>
+            
+            <p>
+                Depois de todos os produtos inseridos só será necessário clicar no botão SALVAR, para
+                que as informações sejam salvas, em seguida no botão EMITIR NOTA. Na imagem
+                abaixo eu deixei em destaque mais dois botões que o botão CANCELAR NOTA e
+                INUILIZAR NOTA. O botão de cancelar nota, como a descrição já diz vai ser utilizado
+                quando necessário cancelar a nota, esse cancelamento só é permitido ser realizado em
+                até 24 horas. Após esse período será necessário realizar uma Nota de Devolução. Que
+                será assunto para nosso próximo tópico.
+            </p>
+            <br>
+            <img src="img/emitir-nota.png" alt="emissão de nota">
+                
+        </ol>
+
+    </main>
+</body>
+</html>
