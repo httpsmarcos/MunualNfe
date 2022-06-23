@@ -12,6 +12,8 @@
 *{
    margin: 0px;
    padding: 0px;
+   padding-left: 10px;
+   padding-left: 10px;
    box-sizing: border-box;  
 }
 
@@ -93,6 +95,8 @@ main p{
 img{
   width: 100%;
   padding-bottom: 70px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 li{
