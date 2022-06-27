@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -93,7 +93,7 @@
                     <li type="I"><h3>Inclusão de Produtos (Cadastro)</h3>
                         <p>
                         Após selecionar o produto será exibida essa janela para ser inserida a “quantidade,
-                        Valor de venda, CFOP” após ter essas informações clicar em incluir. Será feito esse procedimento para os demais produtos, caso a nota seja composta por mais de um.
+                        Valor de venda, CFOP” após ter essas informações clicar em incluir. Lembrando que o CFOP ser incluso nos Produtos será o CFOP 6202 caso o cliente seja de fora do estado. Caso não saiba qual CFOP utilizar em outras situações basta clicar aqui em<a href="tabela_cfop.html">TABELA CFOP</a>. Será feito esse procedimento para os demais produtos, caso a nota seja composta por mais de um.
                     </p>
 
                     <br>
@@ -103,7 +103,14 @@
                     </li>
 
                     <li type="I"><h3>Inclusão de Produtos (ICMS)</h3>
-                        <p></p>
+                        <p>
+                            Depois que as informações do produto for preenchida na aba de cadastro como ensinado anteriormente se faz necessário dar uma conferida na aba de ICMS. Caso se faça necessário o destaque de ICMS na nota de devolução, será necessário realizar alterações nessa aba de ICMS. Para isso você vai alterar o <strong>Tipo de Operação</strong>, deixando selecionada a opção "900 - Outros" e verificar a inofrmação na nota de compra qual a "Aliquota de ICMS" e no campo <strong>Ali. do ICMS(%)</strong> colocar o valor correspondente ao que está na nota, em seguida clicar no botão "Calcular ICMS". Já que a nota de devolução é basicamente um espelho da nota de compra.
+                        </p>
+                        <br>
+
+                        <picture>
+                            <img src="img/incluir-produto-icms.png" alt="Destaque de ICMS">
+                        </picture>
                     
                     </li>
 
